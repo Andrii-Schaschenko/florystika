@@ -1,6 +1,11 @@
+html {
+  background-color: #3B181E;
+}
+
 body {
   font-family: "Forum", cursive;
   background-color: #3B181E;
+  height: 100vh;
   color: white;
 }
 
@@ -395,5 +400,70 @@ label {
 
 #check-menu:checked ~ .fourth {
   display: none;
+}
+
+.frame2 {
+  width: 1920px;
+  height: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/katalog-image6.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
+}
+
+.border {
+  width: 996px;
+  position: absolute;
+  height: 1021px;
+  margin-left: 20px;
+  margin-top: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.frame-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  height: 900px;
+  padding-right: 250px;
+  margin: 0 0 0 auto;
+}
+.frame-content h1 {
+  font-size: 50px;
+}
+.frame-content .button {
+  background-color: #3B181E;
+  width: 135px;
+}
+
+.list-flovers {
+  width: 800px;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.list-flowers-frame {
+  width: 123px;
+  height: 123px;
+  margin-right: 20px;
+}
+
+.arrow {
+  width: 46px;
+  height: 46px;
+  right: 50px;
+  position: relative;
+}
+
+.foto-profile {
+  text-align: right;
+  font-size: 18px;
+  margin-right: 20px;
+}
+.foto-profile img {
+  margin-left: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
